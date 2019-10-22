@@ -9,3 +9,9 @@ cmake --build build
 ## If building using visual studio
 
 Use the `-DCONAN_DISABLE_CHECK_COMPILER=1` flag when generating the cmake cache
+
+## Using the notebook
+
+- `pip install jupyter`
+- `pip install pandas`
+- `jupyter viz.ipynb`
