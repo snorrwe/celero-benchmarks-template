@@ -1,4 +1,3 @@
-
 ## Install dependencies
 
 - install [Python 3](https://www.python.org/)
@@ -25,3 +24,7 @@ Use the `-DCONAN_DISABLE_CHECK_COMPILER=1` flag when generating the cmake cache
 
 - Emit benchmark output `build/../bench.exe -t out.csv`
 - `jupyter lab viz.ipynb`
+
+## Reading
+
+- [Celero](https://github.com/DigitalInBlue/Celero), the benchmarking framework used.
