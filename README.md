@@ -6,7 +6,6 @@
 
 ## Prepare the cmake cache
 
-- Add the celero repository `conan remote add ppodsiadly https://api.bintray.com/conan/ppodsiadly/conan`
 - Init the cmake cache `cmake -H. -Bbuild`
 
 
@@ -16,13 +15,9 @@
 cmake --build build
 ```
 
-## If building using visual studio
-
-Use the `-DCONAN_DISABLE_CHECK_COMPILER=1` flag when generating the cmake cache
-
 ## Using the notebook
 
-- Emit benchmark output `build/../bench.exe -t out.csv`
+- Emit benchmark output `build/<...>/bench.exe -t out.csv`
 - `jupyter lab viz.ipynb`
 
 ## Reading
